@@ -1,5 +1,6 @@
 
 import React  from "react";
+
 import { Link } from "react-router-dom";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import "../components/Home.css"
@@ -211,4 +212,6 @@ const {
 }
 
 
+
 export default Home
+
