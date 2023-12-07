@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .container {
     overflow: hidden;
@@ -181,3 +182,12 @@ hr{
     display: flex;
     justify-content: center;
 }
+=======
+.container-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: xx-large;
+}
+>>>>>>> 61e093461a177f17ada290398835f55d2995bc92

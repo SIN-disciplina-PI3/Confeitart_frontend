@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import '../components/Forum.css';
@@ -177,3 +178,18 @@ novoComentario:{
 }
 
 export default Forum;
+=======
+import React from "react";
+import { Link } from "react-router-dom";
+import '../components/Forum.css';
+const Forum = () => {
+    return (
+        <section className="container-principal">
+            <div>Fórum </div>
+           
+        </section>
+    );
+}
+
+export default Forum;
+>>>>>>> 61e093461a177f17ada290398835f55d2995bc92
