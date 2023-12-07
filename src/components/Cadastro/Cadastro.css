@@ -85,7 +85,7 @@
     margin-top: 1rem;
 }
 
-.fin hr{
+.fin #linhaHr{
     border: #5b2f2d 1px solid;
     width: 80%;
 }

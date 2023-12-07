@@ -25,6 +25,7 @@ const NavbarPerfi = () => {
                     <p id="login" className='myCursos'>Meus Cursos </p>
 
                     <p id="cadastrar">Perfil</p>
+                   
                 </div>
 
             </nav>

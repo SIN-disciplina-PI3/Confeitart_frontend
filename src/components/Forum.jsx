@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import '../components/Forum.css';
@@ -76,7 +76,7 @@ novoComentario:{
                     <h3>Converse com os alunos<p> de outros cursos</p></h3>
                     <h3>Comece o seu<p>networking</p> </h3>
                 </section>
-                <hr />
+                <hr id="linha" />
                 
             
                 
@@ -95,7 +95,7 @@ novoComentario:{
                     ))}
                   
                   </section>
-                  <hr />
+                  <hr id="linha"/>
 <div className="Formulario">
 
 <form method="post" onSubmit={this.adicionarComentario}>
@@ -122,10 +122,8 @@ novoComentario:{
     onChange={this.digitacaoDoNome}
     ></textarea>
  </div>
- <button ontouchstart="" type="submit">Comentar</button>
- <div ontouchstart="">
- 
-</div>
+ <button type="submit">Comentar</button>
+
 </form>
 </div>
                
@@ -178,18 +176,4 @@ novoComentario:{
 }
 
 export default Forum;
-=======
-import React from "react";
-import { Link } from "react-router-dom";
-import '../components/Forum.css';
-const Forum = () => {
-    return (
-        <section className="container-principal">
-            <div>Fórum </div>
-           
-        </section>
-    );
-}
 
-export default Forum;
->>>>>>> 61e093461a177f17ada290398835f55d2995bc92

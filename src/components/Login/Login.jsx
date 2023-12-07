@@ -18,6 +18,7 @@ const Login = () => {
                 <p>Ou <a href="#">Esqueceu senha?</a></p>
                 <div className='hrdiv'></div>
                <p> Você não tem uma conta? <Link to="/Cadastro"> Cadastre-se</Link></p>
+             
             </form>
         </div>
     </>

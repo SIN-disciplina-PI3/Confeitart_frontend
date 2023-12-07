@@ -33,7 +33,7 @@ const Cadastro = () => {
                     </div>
                     
                     <div className="fin">
-                       <hr /> 
+                       <hr id="linhaHr"/> 
                        <p>Já tem conta?<Link to="/Login"> Faça o Login</Link></p>
                     </div>
                 </form>

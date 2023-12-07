@@ -26,6 +26,7 @@ const Navbar = () => {
                     <Link id="login" to="/Login">Login </Link>
 
                     <Link to="/Cadastro" id="cadastrar">Cadastre-se</Link>
+             
                 </div>
             </nav>
 

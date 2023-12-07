@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 .container {
     overflow: hidden;
@@ -166,7 +166,7 @@ input[type="text"] {
     justify-content: center;
 }
 
-hr{
+#linha{
     margin-left: 7.5em;
     margin-top: 2.5em;
     width: 80%;
@@ -182,12 +182,5 @@ hr{
     display: flex;
     justify-content: center;
 }
-=======
-.container-principal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    font-size: xx-large;
-}
->>>>>>> 61e093461a177f17ada290398835f55d2995bc92
+
+
