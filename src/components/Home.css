@@ -1,0 +1,618 @@
+body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #F9F9FE;
+    padding: 0;
+    border: 0;
+
+}
+
+.container {
+    overflow: hidden;
+}
+
+/* codificando o menu */
+.menu-container {
+    background-color: #C3ABD3;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 2rem;
+    background-image: url("../assets/logomarrom.png");
+    background-size: contain;
+    height: 6rem;
+    width: 12rem;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+}
+
+#aulas {
+    text-decoration: underline;
+    color: #5B2F2D;
+    padding: 10px;
+    margin: 0 4px;
+    font-size: 90%;
+}
+
+#cursos,
+#forum,
+#plano,
+#cadastrar,
+#login , .LOGIN {
+    color: #5B2F2D;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 4px;
+    font-size: 90%;
+}
+
+#login , .LOGIN {
+    background-color: #F9F9FE;
+    color: #5B2F2D;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#cadastrar {
+    background-color: #5B2F2D;
+    color: #F9F9FE;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#cursos:hover,
+#forum:hover,
+#plano:hover,
+#aulas:hover {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+/* codificação da barra de pesquisa */
+#busca {
+    border: none;
+    border-radius: 25px;
+    width: 500px;
+    height: 5vh;
+    background: #EBEBEB;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#busca {
+    flex-grow: 1;
+    padding-right: 40px;
+    text-indent: 30px;
+    /* afasta mais o cursor do final da barra */
+}
+
+#busca::placeholder {
+    padding-left: 1rem;
+}
+
+#lupa {
+    background-image: url("../assets/lupa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* é para indicar que a imagem é clicável */
+}
+
+/* codicando a parte logo a baixo do menu */
+.imgCozinheiro {
+    background-image: url("../assets/rapazCozinhando.png");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 30rem;
+    width: 20rem;
+    margin: auto;
+}
+
+.matricule-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.matricule {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    color: #5B2F2D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.matricule p {
+    font-size: 300%;
+}
+
+#txt {
+    margin-bottom: -5%;
+}
+
+#txt2 {
+    margin-right: 10%;
+}
+
+.bt {
+    background-color: #5B2F2D;
+    color: #fff;
+    border-radius: 15px;
+    padding: 15px 18px 15px 18px;
+    border: none;
+    font-size: 30px;
+    margin-top: 1rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bt:hover {
+    background-color: #5b2f2dce;
+
+}
+
+/* fundo gradiente */
+#background {
+    background-image: url('../assets/gradiente.png');
+    background-size: cover;
+
+}
+
+.imgLinha {
+    background-image: url("../assets/Line.png");
+    background-size: contain;
+   height: 10rem;
+   width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.imgConfeitArt {
+    background-image: url("../assets/imgConfeitArt.png");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 90vh;
+
+}
+
+/* imagens de alguns cursos que oferecemos */
+.imgCursoBasico {
+    background-image: url("../assets/cursoBasico.png");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.imgCursoDecoracao {
+    background-image: url("../assets/cursoDecoracao.png");
+    margin-top: 5%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.imgCurso3D {
+    background-image: url("../assets/curso3D.png");
+    margin-top: 5%;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+.h1-home {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* codificando a parte do plano */
+.txtPlano {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 0.55%;
+    color: #B37ADA;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.caixaA,
+.caixaB {
+    width: 400px;
+    height: 700px;
+    flex-shrink: 0;
+    border: 2px solid #B37ADA;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.80);
+
+}
+
+.caixaA h1,
+.caixaB h1 {
+    font-family: "Montserrat", monospace;
+    color: #B37ADA;
+    font-size: 240%;
+
+}
+
+.caixaA #txtCaixaA,
+.caixa {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: large;
+}
+
+#txtCaixaA span {
+    color: black;
+    font-weight: bold;
+
+
+}
+
+#TudoFree {
+    color: black;
+    font-size: 260%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.caixas img {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.caixas button {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    background-color: #B37ADA;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: xx-large;
+    padding: 16px 20px 16px 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.caixas button:hover {
+    background-color: white;
+    color: black;
+}
+
+.caixas h5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.caixas #txtCertificado {
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+.caixaA #txtCertificado {
+    margin-top: 4rem;
+}
+
+.check-container {
+    display: inline;
+    margin: auto;
+  margin-left: 1.50rem;
+  margin-right: 1rem;
+}
+
+.check-container input {
+    border-radius: 50%;
+    appearance: none;
+    /* Remover o estilo padrão do sistema operacional */
+    width: 15px;
+    height: 15px;
+    border: 2px solid #000;
+}
+
+.check-container input:checked {
+    background-color: #B37ADA;
+    /* Cor de fundo do checkbox quando estiver marcado */
+}
+
+.caixaB #txtCaixaB {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: large;
+}
+#confeitArt{
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 2rem;
+}
+.preco-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.preco-container #preco {
+    font-size: 300%;
+    color: black;
+    margin: auto;
+}
+
+.preco2-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.preco2-container #txtCertificado {
+    margin: auto;
+    margin-top: -2rem;
+
+}
+
+.preco2-container #preco {
+    margin: auto;
+    margin-bottom: -1rem;
+}
+.plano-container .imgLinha{
+
+    width: 20rem;
+    height: 2rem;
+    margin: auto;
+}
+/* 
+codificando a imagem de aulas do confeitArt */
+.aulas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("../assets/ConfeitArtAulas.png");
+    margin-top: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 125vh;
+    /* Ajuste conforme necessário */
+}
+
+#frase2 {
+    font-size: 250%;
+}
+
+.imgDicas-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4%;
+}
+.frase2 .imgLinha{
+    height: 2rem;
+}
+
+.dicas {
+    background-image: url("../assets/aprenda.png");
+    background-size: contain;
+height: 12rem;
+width: 50%;
+    background-repeat: no-repeat;
+}
+
+/* rodapé */
+
+footer {
+    background-color: #C3ABD3;
+}
+
+/* 
+codificação para tamanhos maiores de tela (ainda falta)*/
+@media screen and (max-width: 783px) {
+
+    .itens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itens #login,
+    #cadastrar {
+        margin: 0.45rem;
+        font-size: x-small;
+    }
+
+    #cursos,
+    #aulas,
+    #plano,
+    #forum {
+        font-size: x-small;
+    }
+
+    .itens.show {
+        display: flex;
+    }
+
+    .logo {
+        display: flex;
+        width: 55%;
+    }
+
+    #busca {
+        width: 250px;
+        margin-bottom: 2%;
+    }
+
+    #busca::placeholder {
+        font-size: xx-small;
+        padding-left: 0.55rem;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    #lupa {
+        width: 4%;
+        padding-bottom: 2%;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .itens {
+        display: flex;
+
+    }
+
+    .imgCozinheiro img {
+        width: 10rem;
+
+    }
+
+    .curso-container,
+    .imgConfeitArt {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .imgConfeitArt,
+    .imgCurso3D,
+    .imgCursoBasico,
+    .imgCursoDecoracao {
+
+
+        width: 60rem;
+        margin-top: 5%;
+        height: 60vh;
+
+    }
+
+    .imgLinha img {
+        margin-top: 5%;
+        width: 50rem;
+    }
+
+    .imgCozinheiro {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+.footer {
+    background-color: #C3ABD3;
+    color: #5B2F2D;
+    height: 18em;
+    margin-top: 2em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container h1 {
+    margin-top: 4em;
+}
+
+.footer-container h4 {
+    margin-left: 2em;
+    text-transform: uppercase;
+}
+
+.institucional,
+.sobre,
+.contato,
+.rede-social {
+    margin-top: 4em;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 0.5em;
+}
+
+.social-list li:hover {
+    color: #fff;
+}
+
+.social-list svg {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
