@@ -69,21 +69,27 @@ const Catalogo = () => {
                         <img className="img-boloCaseiro" alt="Bolo Caseiro" src="../src/assets/boloCaseiro.jpg" />
                         <h5 className="categoria-nome" >Confeitaria</h5>
                         <h3 className="cursos">Bolos Caseiros</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="bolos-pote">
                         <img className="img-boloPote" alt="Bolos de Pote" src="../src/assets/boloPote1.jpg" />
                         <h5 className="categoria-nome">Confeitaria</h5>
                         <h3 className="cursos">Bolos de Pote</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="confeitaria-basica">
                         <img className="img-confeitariaBasica" alt="Confeitaria Básica" src="../src/assets/torta.jpg" />
                         <h5 className="categoria-nome">Confeitaria</h5>
                         <h3 className="cursos">Confeitaria Básica</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                 </div>
@@ -95,21 +101,27 @@ const Catalogo = () => {
                         <img className="img-pastaAmericana" alt="Pasta Americana" src="../src/assets/pastaAmericana.png" />
                         <h5 className="categoria-nome">Confeitaria</h5>
                         <h3 className="cursos">Pasta Americana</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="chantininho">
                         <img className="img-chantininho" alt="Decoração com Chantininho" src="../src/assets/boloRosa.jpg" />
                         <h5 className="categoria-nome">Confeitaria</h5>
                         <h3 className="cursos">Decoração com Chantininho</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="tortas">
                         <img className="img-torta" alt="Torta" src="../src/assets/tortaChocolate.jpg" />
                         <h5 className="categoria-nome">Confeitaria</h5>
                         <h3 className="cursos">Tortas</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                 </div>
@@ -125,21 +137,27 @@ const Catalogo = () => {
                         <img className="img-brigadeiros" alt="Brigadeiros Gourmet" src="../src/assets/brigadeiros.jpeg" />
                         <h5 className="categoria-nome">Doces</h5>
                         <h3 className="cursos">Brigadeiros Gourmet</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="bem-casado">
                         <img className="img-bemCasado" alt="Bem Casado" src="../src/assets/bemCasado.jpg" />
                         <h5 className="categoria-nome">Doces</h5>
                         <h3 className="cursos">Bem Casado</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="brownie">
                         <img className="img-brownie" alt="Brownie" src="../src/assets/brownie.jpg" />
                         <h5 className="categoria-nome">Doces</h5>
                         <h3 className="cursos">Brownie</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                 </div>
@@ -149,21 +167,27 @@ const Catalogo = () => {
                         <img className="img-suspiros" alt="Suspiros" src="../src/assets/suspiros.jpg" />
                         <h5 className="categoria-nome">Doces</h5>
                         <h3 className="cursos">Suspiros Gourmet</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="donuts">
                         <img className="img-donuts" alt="Donuts" src="../src/assets/donuts.jpg" />
                         <h5 className="categoria-nome">Doces</h5>
                         <h3 className="cursos">Donuts</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="doces-finos">
                         <img className="img-docesFinos" alt="Doces Finos" src="../src/assets/docesFinos.jpg" />
                         <h5 className="categoria-nome">Doces</h5>
                         <h3 className="cursos">Doces Finos</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
                 </div>
 
@@ -178,21 +202,27 @@ const Catalogo = () => {
                         <img className="img-bombons" alt="Bombons" src="../src/assets/bombons.jpg" />
                         <h5 className="categoria-nome">Chocolates</h5>
                         <h3 className="cursos">Bombons e Trufas</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="bombom-aberto">
                         <img className="img-bombomAberto" alt="Bombom Aberto" src="../src/assets/bombomAberto.jpg" />
                         <h5 className="categoria-nome">Chocolates</h5>
                         <h3 className="cursos">Bombons Aberto</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
 
                     <div className="ovo-colher">
                         <img className="img-ovoColher" alt="Ovo de Colher" src="../src/assets/ovoColher.jpg" />
                         <h5 className="categoria-nome">Chocolates</h5>
                         <h3 className="cursos">Ovos de Colher</h3>
-                        <button className="btn-matricula">Matricule-se</button>
+                        <Link id="aulaCurso" to="/aulas">
+                            <button className="btn-matricula">Matricule-se</button>
+                        </Link>
                     </div>
                 </div>
             </div>
