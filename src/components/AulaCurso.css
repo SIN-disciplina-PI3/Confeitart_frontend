@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    background-image: linear-gradient(#C3ABD3 , #F9F9FE);
+    height: 70em;
+    overflow: hidden;
+}
+
+/* codificando o menu */
+.menu-container {
+    background-color: #C3ABD3;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 2rem;
+    background-image: url("../assets/logomarrom.png");
+    background-size: contain;
+    height: 6rem;
+    width: 12rem;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+}
+
+#aulas {
+    text-decoration: underline;
+    color: #5B2F2D;
+    padding: 10px;
+    margin: 0 4px;
+    font-size: 90%;
+}
+
+#cursos,
+#forum,
+#plano,
+#cadastrar,
+#login , .LOGIN {
+    color: #5B2F2D;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 4px;
+    font-size: 90%;
+}
+
+#login , .LOGIN {
+    background-color: #F9F9FE;
+    color: #5B2F2D;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#cadastrar {
+    background-color: #5B2F2D;
+    color: #F9F9FE;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#cursos:hover,
+#forum:hover,
+#plano:hover,
+#aulas:hover {
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.titleBar {
+    background-color: #5B2F2D;
+    width: 90%;
+    height: 3em;
+    margin-left: 3em;
+    margin-top: 3em;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+}
+
+.titleVideo {
+    color: #EBEBEB;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0.7em;
+}
+
+.progresso{
+    display: flex;
+    align-items: center;
+}
+
+.imgChefeConfeiteiro{
+    margin-left: 25em;
+    width: 1.5em;
+}
+
+.progressBar {
+    margin-left: 0.5em;
+    color: #EBEBEB;
+    font-weight: 500;
+}
+
+.setaProgresso {
+    width: 1em;
+    margin-left: 0.5em;
+}
+
+.btnCompartilhar {
+    color: #F9F9FE;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border: 2px solid #F9F9FE;
+    background-color: #5B2F2D;
+    margin-left: 2.5em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.setaCompartilhar {
+    width: 1.5em;
+    margin-left: 1em;
+}
+
+.videoContainer{
+    display: flex;
+}
+
+.modulos{
+    background-color: #EBEBEB;
+    width: 29%;
+}
+
+.titleModulo{
+    display: flex;
+    align-items: center;
+}
+
+.setaModulo{
+    align-items: end;
+    width: 1em;
+}
+
+.modulo1, .modulo2, .modulo3,.modulo4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 1.5em;
+}
+
+.p-modulo1, .p-modulo2, .p-modulo3, .p-modulo4 {
+    margin-left: 1.7em;
+    font-weight: 600;
+}
+
+.btnSeta{
+    border: none;
+    background-color: #EBEBEB;
+}
+
+
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+
+.checkAulas {
+    background-color: #5B2F2D;
+    margin-left: 1.5em;
+    width: 1.5em;
+    height: 2em;
+}
+
+.tempoDuracao{
+    margin-left: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.computador {
+    width: 1em;
+    margin-left: 1em;
+}
+
+.duracaoAula {
+    margin-left: 1em;
+    font-size: smaller;
+    color: #666363;
+}
+
+.videoWrapper {
+    background-color: #5B2F2D;
+    position: relative;
+    width: 50em;
+    height: 28.5em;
+    margin-left: 3em;
+}
+
+.videoWrapper video{
+    width: 100%;
+}
+
+.videoWrapper input {
+    margin: 0.5em;
+    width: 85%;
+}
+
+.btnControls, .btnProgresso {
+    background-color: #5B2F2D;
+    border: none;
+}
+
+.botaoPause,
+.botaoPlay {
+    width: 1em;
+    cursor: pointer;
+}
+
+.telaCheia, .botaoVolume {
+    margin-left: 0.5em;
+    width: 1.4em;
+    cursor: pointer;
+}
+
+.volumeBarWrapper {
+    width: 5em;
+    height: 1em;
+}
+
+.moduloAula {
+    text-transform: uppercase;
+    color: #5B2F2D;
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+}
+
+.footer {
+    background-color: #C3ABD3;
+    color: #5B2F2D;
+    width: 100%s;
+    height: 18em;
+    bottom: 0;
+    left: 0;
+    margin-top: 9em;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container h1{
+    margin-top: 4em;
+}
+
+.footer-container h4{
+    margin-left: 2em;
+    text-transform: uppercase;
+}
+
+.institucional, .sobre, .contato, .rede-social{
+    margin-top: 4em;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-right: 0.5em;
+}
+
+.social-list li:hover{
+    color: #fff;
+}
+
+.social-list svg {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
