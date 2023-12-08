@@ -9,6 +9,7 @@ import Lives from '../components/AulasAoVivo.jsx'
 import Forum from '../components/Forum.jsx'
 import Plano from '../components/Plano.jsx'
 import Perfil from '../components/Perfil/Perfil.jsx'
+import AulaCurso from '../components/AulaCurso.jsx'
 
 const AppRoutes = () => {
   return (
@@ -22,6 +23,7 @@ const AppRoutes = () => {
         <Route path='/forum' element = {<Forum/>} />
         <Route path='/plano' element = {<Plano/>} />
         <Route path='/Perfil' element = {<Perfil/>} />
+        <Route path="/aulas" element={<AulaCurso />} />
     </Routes>
   
   )
