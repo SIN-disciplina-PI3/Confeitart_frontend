@@ -8,9 +8,8 @@ body {
     border: 0;
 }
 
-.container {
+.container-aulas {
     background-image: linear-gradient(#C3ABD3 , #F9F9FE);
-    height: 70em;
     overflow: hidden;
 }
 
