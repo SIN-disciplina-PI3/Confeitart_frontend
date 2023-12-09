@@ -141,7 +141,7 @@ const AulaCurso = () => {
 
     return (
 
-        <div className="container">
+        <div className="container-aulas">
             <nav className="menu-container" >
 
                 <div className="itens">
