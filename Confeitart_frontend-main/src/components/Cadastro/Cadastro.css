@@ -1,0 +1,91 @@
+.contCadastro{
+    background: rgb(195,171,211);
+    background: linear-gradient(180deg, rgba(195,171,211,1) 30%, rgba(255,255,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    color: #5b2f2d;
+    padding-bottom: 3rem;
+    
+}
+.cont{
+    background-color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 2rem;
+    
+}
+
+.cont h1{
+    display: flex;
+    justify-content: center;
+    color: #5b2f2d;
+}
+.inpText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.inpText input{
+    height: 2rem;
+    border-radius: 20px;
+    padding-left: 1.5rem;
+    width: 80%;
+
+}
+.check{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-left: 1.5rem;
+}
+
+.checkAluno-professor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}   
+
+
+.checkAluno-professor p{
+    font-weight: bold;
+    color: #5b2f2d;
+}
+
+.Listra{
+    width: 2px;
+    height: 4rem;
+    background-color: #5b2f2d;
+    margin-top: 0.9rem;
+}
+
+.BtCad{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.BtCad a{
+    background-color:rgb(195,171,211) ;
+    color: #5b2f2d;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+}
+
+.fin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.fin #linhaHr{
+    border: #5b2f2d 1px solid;
+    width: 80%;
+}
