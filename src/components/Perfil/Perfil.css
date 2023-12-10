@@ -1,0 +1,192 @@
+.backPerfil{
+    background: rgb(195,171,211);
+background: linear-gradient(180deg, rgba(195,171,211,1) 15%, rgba(255,255,255,1) 100%);
+min-height: 150vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 3%;
+}
+.backPerfil form{
+    width: 50%;
+    padding-bottom: 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 20px;
+    color: #5b2f2d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.backPerfil h1{
+   color: #5b2f2d;
+}
+
+.backPerfil form p{
+    margin: 0;
+    
+
+}
+.backPerfil form .nome{
+    padding: 20px 60% 5px 30px;
+
+
+}
+.backPerfil form .inputNome{
+    margin-left: 1%;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border: #5b2f2d 1px solid;
+
+}
+
+.linha2{
+    display: flex;
+    gap: 3.5rem;
+    margin-top: 20px;
+    margin-left: 6px;
+
+}
+.linha2 input {
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    border: #5b2f2d 1px solid;
+}
+.linha2 .Cpf p{
+  padding-left: 12px;
+
+}
+
+.linha2 .Date input{
+  width: 80%;
+  text-align: center;
+ }
+
+ .linha2 .Grau select {
+    color: #7e7b7b;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    border: #5b2f2d 1px solid;
+ }
+
+ .Cpf{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .Data{
+    display: flex;
+    flex-direction: column;
+    color: #5b2f2d;
+ }
+ .Grau{
+    display: flex;
+    flex-direction: column;
+ }
+ .E-mail{
+    display: flex;
+    flex-direction: column;
+   margin-right: 57%;
+   margin-top: 10px;
+ }
+
+ .E-mail input{
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    border: #5b2f2d 1px solid;
+    width: 308%;
+    
+
+ }
+ .E-mail p{
+padding-left: 5%;    
+ }
+
+ .senhas{
+    display: flex;
+    gap: 1.5rem;
+ }
+ .altera{
+    text-decoration: underline;
+    padding-bottom: 1rem;
+ }
+
+ .alteraSenha{
+   margin-top: 1rem;
+ }
+ .BtSalvar{
+   margin-top: 4rem;
+ }
+ .BtSalvar a {
+   background-color: #5b2f2d;
+   color: white;
+   padding: 1rem 3rem ;
+   border-radius: 20px;
+   text-decoration: none;
+ }
+
+ .senhas input{
+   height: 2rem;
+   border-radius: 1.25rem;
+   padding-left: 1rem;
+ }
+
+
+ /*Box planos*/
+
+.hrPerfil{
+   border:3px solid #5b2f2d !important;
+   width: 80%;
+   margin-top: 4rem;
+   margin-bottom: 3rem;
+   border-radius: 3px;
+   
+}
+
+.boxPlanoPerfil {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   
+}
+
+.boxPlanoPerfil .Title{
+   margin-left: 4.5rem ;
+   text-decoration: underline;
+   font-size: 1.4rem;
+   margin-bottom: 1.5rem;
+}
+.boxPlanoPerfil .BoxPlano{
+   margin-left: 4.5rem ;
+   margin-bottom: 2rem;
+}
+.BoxPlano .P-Atual{
+   font-weight: 500;
+}
+.boxPlanoPerfil .BoxTemp{
+   margin-left: 4.5rem ;
+
+}
+.BoxTemp .P-Temp{
+   font-weight: 500;
+}
+.boxPlanoPerfil .Bt-Rn-Plano{
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
+}
+.Bt-Rn-Plano a{
+   background-color: #5b2f2d;
+   color: white;
+   padding: 1rem 2rem ;
+   border-radius: 20px;
+   text-decoration: none;
+}

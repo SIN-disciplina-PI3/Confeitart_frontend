@@ -1,0 +1,63 @@
+.Comentario{
+    background-color: rgba(209, 145, 236, 0.781);
+        margin-bottom: 2rem;
+        border: 1px solid #5b2f2d86 ;
+        border-radius: 15px;
+        margin-top: 4rem;
+      padding: 0 30px;
+      color: #5B2F2D;
+    }
+    .comentarios {
+        padding: 30 150px;
+        overflow-y: auto; 
+        max-height: 600px;
+    }
+    .Formulario{
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .Formulario input::placeholder , textarea::placeholder {
+        font-size: large;
+        color: #5b2f2d86;
+    
+      }
+    .Formulario input , textarea{
+        border-radius:  10px;
+        border: 1px solid #5b2f2d86;
+        padding: 10px;
+        width: 20rem;
+        margin: 0.55rem;
+    }  
+    
+    .Formulario button{
+       
+        background-color: #5B2F2D;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: medium;
+        box-shadow:0px 4px 0px 0px rgba(0, 0, 0, 0.808) ;
+    }
+    .Formulario button:hover{
+        background-color: #fff;
+        color: #5B2F2D;
+        border: 1px solid #5B2F2D;
+    } 
+    .Formulario button:active{
+        top:10px;
+        background-color:#Fff;
+        
+        -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0#5B2F2D;
+        -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #5B2F2D;
+        box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #5B2F2D;
+      }
+      
+    
+    
+      
+     
+      
+     
