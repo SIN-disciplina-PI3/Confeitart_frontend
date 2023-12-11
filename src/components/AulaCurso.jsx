@@ -146,7 +146,7 @@ const AulaCurso = () => {
 
                 <div className="itens">
 
-                    <div className="logo"></div>
+                    <Link to="/><div className="logo"></div></Link>
 
                     <div className="busca">
 
