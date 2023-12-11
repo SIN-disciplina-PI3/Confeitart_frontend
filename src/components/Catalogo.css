@@ -236,6 +236,11 @@ hr {
     color: #FD858E;
 }
 
+#aulaCurso{
+    text-decoration: none;
+    color: inherit;
+}
+
 .btn-matricula {
     display: block;
     margin: 0 auto;
